@@ -2,6 +2,7 @@
 #define HTTPCLIENT_H
 
 #include <QObject>
+const int TIMEOUT = 1000;
 
 class HttpClient : public QObject
 {
